@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - End Game Trigger
   layers:
   - Default
   - TransparentFX
@@ -40,4 +41,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Damsel
+    uniqueID: 4071383151
+    locked: 0
+  - name: Castle Foreground
+    uniqueID: 953623733
+    locked: 0
+  - name: Hero
+    uniqueID: 3191191895
     locked: 0
