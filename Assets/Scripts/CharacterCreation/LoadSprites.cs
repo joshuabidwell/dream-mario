@@ -14,5 +14,6 @@ public class LoadSprites : MonoBehaviour
         int childObject = (HeroDetails.heroHeadValue + 1) * (HeroDetails.heroBodyValue + 1);
         hero.transform.GetChild((childObject -1)).gameObject.SetActive(true);
         heroController.anim = heroController.transform.GetChild((childObject - 1)).GetComponent<Animator>();
+        damsel.GetComponent<SpriteRenderer>().sprite = DamselDetails.damsel;
     }
 }
