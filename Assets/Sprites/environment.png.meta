@@ -1,0 +1,1911 @@
+fileFormatVersion: 2
+guid: 74e2300ec98526741bdba005c332c37d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: environment_0
+    21300002: environment_1
+    21300004: environment_2
+    21300006: environment_3
+    21300008: environment_4
+    21300010: environment_5
+    21300012: environment_6
+    21300014: environment_7
+    21300016: environment_8
+    21300018: environment_9
+    21300020: environment_10
+    21300022: environment_11
+    21300024: environment_12
+    21300026: environment_13
+    21300028: environment_14
+    21300030: environment_15
+    21300032: environment_16
+    21300034: environment_17
+    21300036: environment_18
+    21300038: environment_19
+    21300040: environment_20
+    21300042: environment_21
+    21300044: environment_22
+    21300046: environment_23
+    21300048: environment_24
+    21300050: environment_25
+    21300052: environment_26
+    21300054: environment_27
+    21300056: environment_28
+    21300058: environment_29
+    21300060: environment_30
+    21300062: environment_31
+    21300064: environment_32
+    21300066: environment_33
+    21300068: environment_34
+    21300070: environment_35
+    21300072: environment_36
+    21300074: environment_37
+    21300076: environment_38
+    21300078: environment_39
+    21300080: environment_40
+    21300082: environment_41
+    21300084: environment_42
+    21300086: environment_43
+    21300088: environment_44
+    21300090: environment_45
+    21300092: environment_46
+    21300094: environment_47
+    21300096: environment_48
+    21300098: environment_49
+    21300100: environment_50
+    21300102: environment_51
+    21300104: environment_52
+    21300106: environment_53
+    21300108: environment_54
+    21300110: environment_55
+    21300112: environment_56
+    21300114: environment_57
+    21300116: environment_58
+    21300118: environment_59
+    21300120: environment_60
+    21300122: environment_61
+    21300124: environment_62
+    21300126: environment_63
+    21300128: environment_64
+    21300130: environment_65
+    21300132: environment_66
+    21300134: environment_67
+    21300136: environment_68
+    21300138: environment_69
+    21300140: environment_70
+    21300142: environment_71
+    21300144: environment_72
+    21300146: environment_73
+    21300148: environment_74
+    21300150: environment_75
+    21300152: environment_76
+    21300154: environment_77
+    21300156: environment_78
+    21300158: environment_79
+    21300160: environment_80
+    21300162: environment_81
+    21300164: environment_82
+    21300166: environment_83
+    21300168: environment_84
+    21300170: environment_85
+    21300172: environment_86
+    21300174: environment_87
+    21300176: environment_88
+    21300178: environment_89
+    21300180: environment_90
+    21300182: environment_91
+    21300184: environment_92
+    21300186: environment_93
+    21300188: environment_94
+    21300190: environment_95
+    21300192: environment_96
+    21300194: environment_97
+    21300196: environment_98
+    21300198: environment_99
+    21300200: environment_100
+    21300202: environment_101
+    21300204: environment_102
+    21300206: environment_103
+    21300208: environment_104
+    21300210: environment_105
+    21300212: environment_106
+    21300214: environment_107
+    21300216: environment_108
+    21300218: environment_109
+    21300220: environment_110
+    21300222: environment_111
+    21300224: environment_112
+    21300226: environment_113
+    21300228: environment_114
+    21300230: environment_115
+    21300232: environment_116
+    21300234: environment_117
+    21300236: environment_118
+    21300238: environment_119
+    21300240: environment_120
+    21300242: environment_121
+    21300244: environment_122
+    21300246: environment_123
+    21300248: environment_124
+    21300250: environment_125
+    21300252: environment_126
+    21300254: environment_127
+    21300256: environment_128
+    21300258: environment_129
+    21300260: environment_130
+    21300262: environment_131
+    21300264: environment_132
+    21300266: environment_133
+    21300268: environment_134
+    21300270: environment_135
+    21300272: environment_136
+    21300274: environment_137
+    21300276: environment_138
+    21300278: environment_139
+    21300280: environment_140
+    21300282: environment_141
+    21300284: environment_142
+    21300286: environment_143
+    21300288: environment_144
+    21300290: environment_145
+    21300292: environment_146
+    21300294: environment_147
+    21300296: environment_148
+    21300298: environment_149
+    21300300: environment_150
+    21300302: environment_151
+    21300304: environment_152
+    21300306: environment_153
+    21300308: environment_154
+    21300310: environment_155
+    21300312: environment_156
+    21300314: environment_157
+    21300316: environment_158
+    21300318: environment_159
+    21300320: environment_160
+    21300322: environment_161
+    21300324: environment_162
+    21300326: environment_163
+    21300328: environment_164
+    21300330: environment_165
+    21300332: environment_166
+    21300334: environment_167
+    21300336: environment_168
+    21300338: environment_169
+    21300340: environment_170
+    21300342: environment_171
+    21300344: environment_172
+    21300346: environment_173
+    21300348: environment_174
+    21300350: environment_175
+    21300352: environment_176
+    21300354: environment_177
+    21300356: environment_178
+    21300358: environment_179
+    21300360: environment_180
+    21300362: environment_181
+    21300364: environment_182
+    21300366: environment_183
+    21300368: environment_184
+    21300370: environment_185
+    21300372: environment_186
+    21300374: environment_187
+    21300376: environment_188
+    21300378: environment_189
+    21300380: environment_190
+    21300382: environment_191
+    21300384: environment_192
+    21300386: environment_193
+    21300388: environment_194
+    21300390: environment_195
+    21300392: environment_196
+    21300394: environment_197
+    21300396: environment_198
+    21300398: environment_199
+    21300400: environment_200
+    21300402: environment_201
+    21300404: environment_202
+    21300406: environment_203
+    21300408: environment_204
+    21300410: environment_205
+    21300412: environment_206
+    21300414: environment_207
+    21300416: environment_208
+    21300418: environment_209
+    21300420: environment_210
+    21300422: environment_211
+    21300424: environment_212
+    21300426: environment_213
+    21300428: environment_214
+    21300430: environment_215
+    21300432: environment_216
+    21300434: environment_217
+    21300436: environment_218
+    21300438: environment_219
+    21300440: environment_220
+    21300442: environment_221
+    21300444: environment_222
+    21300446: environment_223
+    21300448: environment_224
+    21300450: environment_225
+    21300452: environment_226
+    21300454: environment_227
+    21300456: environment_228
+    21300458: environment_229
+    21300460: environment_230
+    21300462: environment_231
+    21300464: environment_232
+    21300466: environment_233
+    21300468: environment_234
+    21300470: environment_235
+    21300472: environment_236
+    21300474: environment_237
+    21300476: environment_238
+    21300478: environment_239
+    21300480: environment_240
+    21300482: environment_241
+    21300484: environment_242
+    21300486: environment_243
+    21300488: environment_244
+    21300490: environment_245
+    21300492: environment_246
+    21300494: environment_247
+    21300496: environment_248
+    21300498: environment_249
+    21300500: environment_250
+    21300502: environment_251
+    21300504: environment_252
+    21300506: environment_253
+    21300508: environment_254
+    21300510: environment_255
+    21300512: environment_256
+    21300514: environment_257
+    21300516: environment_258
+    21300518: environment_259
+    21300520: environment_260
+    21300522: environment_261
+    21300524: environment_262
+    21300526: environment_263
+    21300528: environment_264
+    21300530: environment_265
+    21300532: environment_266
+    21300534: environment_267
+    21300536: environment_268
+    21300538: environment_269
+    21300540: environment_270
+    21300542: environment_271
+    21300544: environment_272
+    21300546: environment_273
+    21300548: environment_274
+    21300550: environment_275
+    21300552: environment_276
+    21300554: environment_277
+    21300556: environment_278
+    21300558: environment_279
+    21300560: environment_280
+    21300562: environment_281
+    21300564: environment_282
+    21300566: environment_283
+    21300568: environment_284
+    21300570: environment_285
+    21300572: environment_286
+    21300574: environment_287
+    21300576: environment_288
+    21300578: environment_289
+    21300580: environment_290
+    21300582: environment_291
+    21300584: environment_292
+    21300586: environment_293
+    21300588: environment_294
+    21300590: environment_295
+    21300592: environment_296
+    21300594: environment_297
+    21300596: environment_298
+    21300598: environment_299
+    21300600: environment_300
+    21300602: environment_301
+    21300604: environment_302
+    21300606: environment_303
+    21300608: environment_304
+    21300610: environment_305
+    21300612: environment_306
+    21300614: environment_307
+    21300616: environment_308
+    21300618: environment_309
+    21300620: environment_310
+    21300622: environment_311
+    21300624: environment_312
+    21300626: environment_313
+    21300628: environment_314
+    21300630: environment_315
+    21300632: environment_316
+    21300634: environment_317
+    21300636: environment_318
+    21300638: environment_319
+    21300640: environment_320
+    21300642: environment_321
+    21300644: environment_322
+    21300646: environment_323
+    21300648: environment_324
+    21300650: environment_325
+    21300652: environment_326
+    21300654: environment_327
+    21300656: environment_328
+    21300658: environment_329
+    21300660: environment_330
+    21300662: environment_331
+    21300664: environment_332
+    21300666: environment_333
+    21300668: environment_334
+    21300670: environment_335
+    21300672: environment_336
+    21300674: environment_337
+    21300676: environment_338
+    21300678: environment_339
+    21300680: environment_340
+    21300682: environment_341
+    21300684: environment_342
+    21300686: environment_343
+    21300688: environment_344
+    21300690: environment_345
+    21300692: environment_346
+    21300694: environment_347
+    21300696: environment_348
+    21300698: environment_349
+    21300700: environment_350
+    21300702: environment_351
+    21300704: environment_352
+    21300706: environment_353
+    21300708: environment_354
+    21300710: environment_355
+    21300712: environment_356
+    21300714: environment_357
+    21300716: environment_358
+    21300718: environment_359
+    21300720: environment_360
+    21300722: environment_361
+    21300724: environment_362
+    21300726: environment_363
+    21300728: environment_364
+    21300730: environment_365
+    21300732: environment_366
+    21300734: environment_367
+    21300736: environment_368
+    21300738: environment_369
+    21300740: environment_370
+    21300742: environment_371
+    21300744: environment_372
+    21300746: environment_373
+    21300748: environment_374
+    21300750: environment_375
+    21300752: environment_376
+    21300754: environment_377
+    21300756: environment_378
+    21300758: environment_379
+    21300760: environment_380
+    21300762: environment_381
+    21300764: environment_382
+    21300766: environment_383
+    21300768: environment_384
+    21300770: environment_385
+    21300772: environment_386
+    21300774: environment_387
+    21300776: environment_388
+    21300778: environment_389
+    21300780: environment_390
+    21300782: environment_391
+    21300784: environment_392
+    21300786: environment_393
+    21300788: environment_394
+    21300790: environment_395
+    21300792: environment_396
+    21300794: environment_397
+    21300796: environment_398
+    21300798: environment_399
+    21300800: environment_400
+    21300802: environment_401
+    21300804: environment_402
+    21300806: environment_403
+    21300808: environment_404
+    21300810: environment_405
+    21300812: environment_406
+    21300814: environment_407
+    21300816: environment_408
+    21300818: environment_409
+    21300820: environment_410
+    21300822: environment_411
+    21300824: environment_412
+    21300826: environment_413
+    21300828: environment_414
+    21300830: environment_415
+    21300832: environment_416
+    21300834: environment_417
+    21300836: environment_418
+    21300838: environment_419
+    21300840: environment_420
+    21300842: environment_421
+    21300844: environment_422
+    21300846: environment_423
+    21300848: environment_424
+    21300850: environment_425
+    21300852: environment_426
+    21300854: environment_427
+    21300856: environment_428
+    21300858: environment_429
+    21300860: environment_430
+    21300862: environment_431
+    21300864: environment_432
+    21300866: environment_433
+    21300868: environment_434
+    21300870: environment_435
+    21300872: environment_436
+    21300874: environment_437
+    21300876: environment_438
+    21300878: environment_439
+    21300880: environment_440
+    21300882: environment_441
+    21300884: environment_442
+    21300886: environment_443
+    21300888: environment_444
+    21300890: environment_445
+    21300892: environment_446
+    21300894: environment_447
+    21300896: environment_448
+    21300898: environment_449
+    21300900: environment_450
+    21300902: environment_451
+    21300904: environment_452
+    21300906: environment_453
+    21300908: environment_454
+    21300910: environment_455
+    21300912: environment_456
+    21300914: environment_457
+    21300916: environment_458
+    21300918: environment_459
+    21300920: environment_460
+    21300922: environment_461
+    21300924: environment_462
+    21300926: environment_463
+    21300928: environment_464
+    21300930: environment_465
+    21300932: environment_466
+    21300934: environment_467
+    21300936: environment_468
+    21300938: environment_469
+    21300940: environment_470
+    21300942: environment_471
+    21300944: environment_472
+    21300946: environment_473
+    21300948: environment_474
+    21300950: environment_475
+    21300952: environment_476
+    21300954: environment_477
+    21300956: environment_478
+    21300958: environment_479
+    21300960: environment_480
+    21300962: environment_481
+    21300964: environment_482
+    21300966: environment_483
+    21300968: environment_484
+    21300970: environment_485
+    21300972: environment_486
+    21300974: environment_487
+    21300976: environment_488
+    21300978: environment_489
+    21300980: environment_490
+    21300982: environment_491
+    21300984: environment_492
+    21300986: environment_493
+    21300988: environment_494
+    21300990: environment_495
+    21300992: environment_496
+    21300994: environment_497
+    21300996: environment_498
+    21300998: environment_499
+    21301000: environment_500
+    21301002: environment_501
+    21301004: environment_502
+    21301006: environment_503
+    21301008: environment_504
+    21301010: environment_505
+    21301012: environment_506
+    21301014: environment_507
+    21301016: environment_508
+    21301018: environment_509
+    21301020: environment_510
+    21301022: environment_511
+    21301024: environment_512
+    21301026: environment_513
+    21301028: environment_514
+    21301030: environment_515
+    21301032: environment_516
+    21301034: environment_517
+    21301036: environment_518
+    21301038: environment_519
+    21301040: environment_520
+    21301042: environment_521
+    21301044: environment_522
+    21301046: environment_523
+    21301048: environment_524
+    21301050: environment_525
+    21301052: environment_526
+    21301054: environment_527
+    21301056: environment_528
+    21301058: environment_529
+    21301060: environment_530
+    21301062: environment_531
+    21301064: environment_532
+    21301066: environment_533
+    21301068: environment_534
+    21301070: environment_535
+    21301072: environment_536
+    21301074: environment_537
+    21301076: environment_538
+    21301078: environment_539
+    21301080: environment_540
+    21301082: environment_541
+    21301084: environment_542
+    21301086: environment_543
+    21301088: environment_544
+    21301090: environment_545
+    21301092: environment_546
+    21301094: environment_547
+    21301096: environment_548
+    21301098: environment_549
+    21301100: environment_550
+    21301102: environment_551
+    21301104: environment_552
+    21301106: environment_553
+    21301108: environment_554
+    21301110: environment_555
+    21301112: environment_556
+    21301114: environment_557
+    21301116: environment_558
+    21301118: environment_559
+    21301120: environment_560
+    21301122: environment_561
+    21301124: environment_562
+    21301126: environment_563
+    21301128: environment_564
+    21301130: environment_565
+    21301132: environment_566
+    21301134: environment_567
+    21301136: environment_568
+    21301138: environment_569
+    21301140: environment_570
+    21301142: environment_571
+    21301144: environment_572
+    21301146: environment_573
+    21301148: environment_574
+    21301150: environment_575
+    21301152: environment_576
+    21301154: environment_577
+    21301156: environment_578
+    21301158: environment_579
+    21301160: environment_580
+    21301162: environment_581
+    21301164: environment_582
+    21301166: environment_583
+    21301168: environment_584
+    21301170: environment_585
+    21301172: environment_586
+    21301174: environment_587
+    21301176: environment_588
+    21301178: environment_589
+    21301180: environment_590
+    21301182: environment_591
+    21301184: environment_592
+    21301186: environment_593
+    21301188: environment_594
+    21301190: environment_595
+    21301192: environment_596
+    21301194: environment_597
+    21301196: environment_598
+    21301198: environment_599
+    21301200: environment_600
+    21301202: environment_601
+    21301204: environment_602
+    21301206: environment_603
+    21301208: environment_604
+    21301210: environment_605
+    21301212: environment_606
+    21301214: environment_607
+    21301216: environment_608
+    21301218: environment_609
+    21301220: environment_610
+    21301222: environment_611
+    21301224: environment_612
+    21301226: environment_613
+    21301228: environment_614
+    21301230: environment_615
+    21301232: environment_616
+    21301234: environment_617
+    21301236: environment_618
+    21301238: environment_619
+    21301240: environment_620
+    21301242: environment_621
+    21301244: environment_622
+    21301246: environment_623
+    21301248: environment_624
+    21301250: environment_625
+    21301252: environment_626
+    21301254: environment_627
+    21301256: environment_628
+    21301258: environment_629
+    21301260: environment_630
+    21301262: environment_631
+    21301264: environment_632
+    21301266: environment_633
+    21301268: environment_634
+    21301270: environment_635
+    21301272: environment_636
+    21301274: environment_637
+    21301276: environment_638
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: environment_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810633b1983f0ff4cbf30580110dc3c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3baee83bfeec7408d2f235b3ce4fbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f235f55ad505df546ae5380b100ab388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea9dcded68e1fb438bcfe39c5a9582e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655a391042ab53b4a9b2016081f46d58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6aec1f0017ad8439c924f1b5191e30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb48158c57fa22c45985b71708271367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1753744f04813a46861dd08b723fe07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8c8916183d2944fbed5c1f78c11817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665eabf538e83d34783d29fb65d20190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ec6abd38655eb4aa4208ce5c9a2715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628e2bf3e4646134bb60b8566d14b435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73605a76e34c66b40a691bfde4338e49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbe878345555a442a5157b11d0c26e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336fe01edaf911e4081061cedf32c06c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2b5c0e6898cff49bb0ca03b77c2cf8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c997845a0b26ed4ebd2dcb79e85a7cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888377ed6e1548847b4b99f31279a8a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44cad7aea83bbf849829a9d135d234e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f43a282b722e2c47a39702135c6b75e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c4a3a776fcce748bab965378e74aae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c42cd0581e4115439c0b7d2bcada74d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55c9aa2c81f6134a8c516b16b6eda94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_23
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13d69436fa912f41a7c7e2479b416f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5640c20e462c637499a83011c8576e8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_25
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f483222d7ef9f4bb2a8feba0e19e43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_26
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb14bfa74db7a944a0368fca2584d35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_27
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91343ad7c7989794fa4631e37e57b96a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ae3be7e8705994786587152c1bb98b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_29
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f82cc8b82f2c6a45898e2f3095721f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83284e4c54008884c8fc0b666562fb28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8517460f3fee84b98b45491a9ae88d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cc2203e9e7f8e4db7508be24db25e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_33
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1d5d4c7616b414bbbb573a12134e2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5bb4a67f16f5d42ad6e460bf89d97d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_35
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe878ac9b64a474097e976ee1d5e974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc66a1a609737be49a278008496231a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_37
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9535ea9846eb6418cc732cb4b9a730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_38
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd7d4fd768e8b346b5c647aecf05ed3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_39
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d42765d21cd0d741863342f30a24d3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_40
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c854ed7ce556b6642ae365689303ea80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_41
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8b87a1ed8488e4dad1d4482f6bcff3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_42
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec3bbe4c2f680d49a0a3cf48c2601f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_43
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0493e79bb0d1fe04e8adac2407cc4db6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ee207f9bf81704f85f9fff84af4de3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_45
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94705619834ca794db86be096f479246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_46
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a1aa8713e9bce49874c21950373f65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_47
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88c1d248fea8084296c5e9d0b0a8116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_48
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f176fcb5a1825d345a6a53f572bfa4ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_49
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deeb9494a3083c94884c4e09558abe52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19249734bbce7be4581818eed386bdfe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_51
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e922ba4e009a9a04591fe9cfa276d75e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa9f8697ef681b4ba6c8156d01e309f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_53
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d475fc721b797745a674e0bbd75fe33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_54
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b4a52e9ad33144db7d3bcd33300874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_55
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55581dd02d17cd641b6e5ec9b6a48182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: environment_56
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac59272878b79de4092788d1bf174706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3a8e5871afbf4e344acd940f3d89acc9
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
