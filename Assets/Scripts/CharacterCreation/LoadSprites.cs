@@ -11,9 +11,16 @@ public class LoadSprites : MonoBehaviour
 
     private void Start()
     {
-        int childObject = (HeroDetails.heroHeadValue + 1) * (HeroDetails.heroBodyValue + 1);
-        hero.transform.GetChild((childObject -1)).gameObject.SetActive(true);
-        heroController.anim = heroController.transform.GetChild((childObject - 1)).GetComponent<Animator>();
+        Debug.Log(HeroDetails.name);
+        Debug.Log(GameObject.Find(HeroDetails.name));
         damsel.GetComponent<SpriteRenderer>().sprite = DamselDetails.damsel;
+        foreach (Transform child in hero.transform)
+        {
+            if (child.name != HeroDetails.name)
+            {
+                child.gameObject.SetActive(false);
+            }
+        }
+        heroController.anim = GameObject.Find(HeroDetails.name).GetComponent<Animator>();
     }
 }

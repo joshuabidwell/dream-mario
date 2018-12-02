@@ -35,7 +35,7 @@ public class Carousel : MonoBehaviour
 
     public void ModifyHeroBody(int newValue)
     {
-        if ((HeroDetails.heroBodyValue + newValue) >= 0 && (HeroDetails.heroBodyValue + newValue) <= 2)
+        if ((HeroDetails.heroBodyValue + newValue) >= 0 && (HeroDetails.heroBodyValue + newValue) <= 3)
         {
             HeroDetails.heroBodyValue += newValue;
         }
@@ -43,9 +43,9 @@ public class Carousel : MonoBehaviour
         {
             if ((HeroDetails.heroBodyValue + newValue) < 0)
             {
-                HeroDetails.heroBodyValue = 2;
+                HeroDetails.heroBodyValue = 3;
             }
-            if ((HeroDetails.heroBodyValue + newValue) > 2)
+            if ((HeroDetails.heroBodyValue + newValue) > 3)
             {
                 HeroDetails.heroBodyValue = 0;
             }
@@ -80,6 +80,7 @@ public class Carousel : MonoBehaviour
             if (outfit.headNum == HeroDetails.heroHeadValue && (outfit.bodyNum == HeroDetails.heroBodyValue))
             {
                 characters[0].outfit.sprite = outfit.sprite;
+                HeroDetails.name = outfit.sprite.name;
                 DamselOutfit();
             }
         }
