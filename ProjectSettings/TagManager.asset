@@ -7,6 +7,8 @@ TagManager:
   - End Game Trigger
   - Death
   - QuestionBlocks
+  - Coins
+  - Goomba
   layers:
   - Default
   - TransparentFX

@@ -14,6 +14,7 @@ public class HeroController : MonoBehaviour
     public EndGame endGame;
     public Tilemap tilemap;
     public Tilemap tilemapQb;
+    public Tilemap tilemapCoins;
     #region bool
     public bool _grounded;
     public bool _dead;
@@ -90,7 +91,6 @@ public class HeroController : MonoBehaviour
             {
                 if (Vector3.Dot(hit.normal, Vector3.up) == -1)
                 {
-                    Debug.Log(Vector3.Dot(hit.normal, Vector3.up));
                     hitPosition.x = hit.point.x - 0.01f * hit.normal.x;
                     hitPosition.y = hit.point.y - 0.01f * hit.normal.y;
                     tilemap.SetTile(tilemap.WorldToCell(hitPosition), null);
@@ -99,6 +99,34 @@ public class HeroController : MonoBehaviour
                     GameObject cointemp = Instantiate(coin, (hitPosition + new Vector3(0, 1, 0)), Quaternion.identity);
                     cointemp.AddComponent<Rigidbody2D>().AddForce(new Vector2(0, 6), ForceMode2D.Impulse);
                     Destroy(cointemp, 0.35f);
+                }
+            }
+        }
+        if (tilemap != null && collision.gameObject.CompareTag("Coins"))
+        {
+            foreach (ContactPoint2D hit in collision.contacts)
+            {
+                hitPosition.x = hit.point.x - 0.01f * hit.normal.x;
+                hitPosition.y = hit.point.y - 0.01f * hit.normal.y;
+                tilemapCoins.SetTile(tilemap.WorldToCell(hitPosition), null);
+            }
+        }
+        if (collision.gameObject.CompareTag("Goomba"))
+        {
+            foreach (ContactPoint2D hit in collision.contacts)
+            {
+                if (Vector3.Dot(hit.normal, Vector3.up) > 0.6f)
+                {
+                    collision.gameObject.GetComponent<Animator>().SetBool("Dead", true);
+                    collision.gameObject.GetComponent<BoxCollider2D>().enabled = false;
+                    collision.gameObject.GetComponent<Goomba>().enabled = false;
+                    Destroy(collision.gameObject, 1);
+                    rb.AddForce(new Vector2(0, 6), ForceMode2D.Impulse);
+                }
+                else
+                {
+                    anim.SetTrigger("Dead");
+                    StartCoroutine("Death");
                 }
             }
         }
