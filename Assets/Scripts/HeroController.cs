@@ -45,8 +45,8 @@ public class HeroController : MonoBehaviour
         }
         else if (rb.velocity.y > 1)
         {
-            anim.ResetTrigger("Grounded");
-            _grounded = false;
+            anim.ResetTrigger("Grounded"); // TRY anim.SetBool(anim.SetBool("Grounded", _grounded);
+            _grounded = false; // TRY setting this on collision with block where block is lower than player pivot, ensure all sprites are pivot at bottom in that case
         }
 
     }
@@ -96,8 +96,8 @@ public class HeroController : MonoBehaviour
                     tilemap.SetTile(tilemap.WorldToCell(hitPosition), null);
                     tilemap.SetColliderType(tilemap.WorldToCell(hitPosition), Tile.ColliderType.Grid);
                     tilemapQb.SetColliderType(tilemap.WorldToCell(hitPosition), Tile.ColliderType.None);
-                    GameObject cointemp = Instantiate(coin, (hitPosition + new Vector3(0, 1, 0)), Quaternion.identity);
-                    cointemp.AddComponent<Rigidbody2D>().AddForce(new Vector2(0, 6), ForceMode2D.Impulse);
+                    GameObject cointemp = Instantiate(coin, (hitPosition + new Vector3(0, 1, 0)), Quaternion.identity);// This coin should be the spinning one in the objects spritesheet
+                    cointemp.AddComponent<Rigidbody2D>().AddForce(new Vector2(0, 6), ForceMode2D.Impulse);// Just for optimisation's interest this is where you should just lerp the transform
                     Destroy(cointemp, 0.35f);
                 }
             }
@@ -138,7 +138,7 @@ public class HeroController : MonoBehaviour
         {
             _dead = true;
             this.enabled = false;
-            rb.AddForce(new Vector2(0, 30), ForceMode2D.Impulse);
+            rb.AddForce(new Vector2(0, 30), ForceMode2D.Impulse); // should disable physics completely and lerp the transform again
             yield return new WaitForSeconds(2);
             SceneManager.LoadScene("Game");
         }

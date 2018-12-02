@@ -6,7 +6,7 @@ public class CameraFollow : MonoBehaviour
 {
     public GameObject player;
 
-	void Update ()
+	void FixedUpdate ()
     {
         if (Vector3.Distance(player.transform.position, transform.position) > 1)
         {
