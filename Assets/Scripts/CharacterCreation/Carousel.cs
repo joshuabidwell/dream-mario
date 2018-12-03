@@ -7,6 +7,7 @@ public class Carousel : MonoBehaviour
     public CharacterDetails[] characters;
     public ScriptableOutfit[] possibleCharacterOutfits;
     public AudioClip[] possibleCharacterVoices;
+    public AudioSource audioSource;
 
     void Awake()
     {
@@ -15,6 +16,7 @@ public class Carousel : MonoBehaviour
 
     public void ModifyHeroHead(int newValue)
     {
+        audioSource.Play();
         if ((HeroDetails.heroHeadValue + newValue) >= 0 && (HeroDetails.heroHeadValue + newValue) <= 3)
         {
             HeroDetails.heroHeadValue += newValue;
@@ -35,6 +37,7 @@ public class Carousel : MonoBehaviour
 
     public void ModifyHeroBody(int newValue)
     {
+        audioSource.Play();
         if ((HeroDetails.heroBodyValue + newValue) >= 0 && (HeroDetails.heroBodyValue + newValue) <= 3)
         {
             HeroDetails.heroBodyValue += newValue;
@@ -55,6 +58,7 @@ public class Carousel : MonoBehaviour
 
     public void ModifyHeroVoice(int newValue)
     {
+        audioSource.Play();
         if ((HeroDetails.heroVoiceValue + newValue) >= 0 && (HeroDetails.heroVoiceValue + newValue) <= 3)
         {
             characters[0].voice.clip = possibleCharacterVoices[HeroDetails.heroVoiceValue];

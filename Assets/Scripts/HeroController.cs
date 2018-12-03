@@ -15,6 +15,12 @@ public class HeroController : MonoBehaviour
     public Tilemap tilemap;
     public Tilemap tilemapQb;
     public Tilemap tilemapCoins;
+
+    [Header("Audio")]
+    public AudioSource music;
+    public AudioSource jumpSound;
+    public AudioSource coinSound;
+    public AudioSource deathSound;
     #region bool
     public bool _grounded;
     public bool _dead;
@@ -55,6 +61,7 @@ public class HeroController : MonoBehaviour
     {
         if (_grounded == true)
         {
+            jumpSound.Play();
             rb.AddForce(new Vector2(0, 20), ForceMode2D.Impulse);
         }
     }
@@ -79,6 +86,8 @@ public class HeroController : MonoBehaviour
             anim.SetTrigger("Grounded");
             this.enabled = false;
             anim.SetFloat("Speed", Mathf.Abs(0));
+            rb.velocity = Vector2.zero;
+            endGame.End();
         }
     }
 
@@ -91,6 +100,7 @@ public class HeroController : MonoBehaviour
             {
                 if (Vector3.Dot(hit.normal, Vector3.up) == -1)
                 {
+                    coinSound.Play();
                     hitPosition.x = hit.point.x - 0.01f * hit.normal.x;
                     hitPosition.y = hit.point.y - 0.01f * hit.normal.y;
                     tilemap.SetTile(tilemap.WorldToCell(hitPosition), null);
@@ -106,6 +116,7 @@ public class HeroController : MonoBehaviour
         {
             foreach (ContactPoint2D hit in collision.contacts)
             {
+                coinSound.Play();
                 hitPosition.x = hit.point.x - 0.01f * hit.normal.x;
                 hitPosition.y = hit.point.y - 0.01f * hit.normal.y;
                 tilemapCoins.SetTile(tilemap.WorldToCell(hitPosition), null);
@@ -136,10 +147,16 @@ public class HeroController : MonoBehaviour
     {
         if (_dead == false)
         {
+            music.Stop();
+            deathSound.Play();
             _dead = true;
             this.enabled = false;
-            rb.AddForce(new Vector2(0, 30), ForceMode2D.Impulse); // should disable physics completely and lerp the transform again
-            yield return new WaitForSeconds(2);
+            rb.isKinematic = true;
+            yield return new WaitForSeconds(0.2f);
+            LeanTween.move(this.gameObject, new Vector2(transform.position.x, (transform.position.y + 8)), 0.4f);
+            yield return new WaitForSeconds(0.6f);
+            LeanTween.move(this.gameObject, new Vector2(transform.position.x, (transform.position.y - 20)), 1f);
+            yield return new WaitForSeconds(2.4f);
             SceneManager.LoadScene("Game");
         }
     }

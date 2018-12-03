@@ -5,8 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class Game : MonoBehaviour
 {
+    public Carousel carousel;
     public void StartGame()
     {
+        carousel.audioSource.Play();
         SceneManager.LoadScene("Game");
     }
 }
