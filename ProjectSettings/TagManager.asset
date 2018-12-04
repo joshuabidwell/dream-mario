@@ -46,11 +46,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 2102198463
+    locked: 0
+  - name: Collision
+    uniqueID: 2538378595
+    locked: 0
   - name: Damsel
     uniqueID: 4071383151
     locked: 0
-  - name: Castle Foreground
+  - name: Castle Balcony
     uniqueID: 953623733
+    locked: 0
+  - name: Pickups
+    uniqueID: 1670858633
     locked: 0
   - name: Hero
     uniqueID: 3191191895
