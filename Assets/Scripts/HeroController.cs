@@ -62,7 +62,7 @@ public class HeroController : MonoBehaviour
         if (_grounded == true)
         {
             jumpSound.Play();
-            rb.AddForce(new Vector2(0, 20), ForceMode2D.Impulse);
+            rb.AddForce(new Vector2(0, 18), ForceMode2D.Impulse);
         }
     }
 
@@ -89,6 +89,11 @@ public class HeroController : MonoBehaviour
             rb.velocity = Vector2.zero;
             endGame.End();
         }
+        if (col.CompareTag("Coins"))
+        {
+            coinSound.Play();
+            Destroy(col.gameObject);
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -112,27 +117,19 @@ public class HeroController : MonoBehaviour
                 }
             }
         }
-        if (tilemap != null && collision.gameObject.CompareTag("Coins"))
-        {
-            foreach (ContactPoint2D hit in collision.contacts)
-            {
-                coinSound.Play();
-                hitPosition.x = hit.point.x - 0.01f * hit.normal.x;
-                hitPosition.y = hit.point.y - 0.01f * hit.normal.y;
-                tilemapCoins.SetTile(tilemap.WorldToCell(hitPosition), null);
-            }
-        }
         if (collision.gameObject.CompareTag("Goomba"))
         {
             foreach (ContactPoint2D hit in collision.contacts)
             {
-                if (Vector3.Dot(hit.normal, Vector3.up) > 0.6f)
+                Debug.Log(hit.normal);
+                if (Vector3.Dot(hit.normal, Vector3.up) > 0.1f || Vector3.Dot(hit.normal, Vector3.up) < 0)
                 {
-                    collision.gameObject.GetComponent<Animator>().SetBool("Dead", true);
+                    collision.gameObject.GetComponent<AudioSource>().Play();
+                   collision.gameObject.GetComponent<Animator>().SetBool("Dead", true);
                     collision.gameObject.GetComponent<BoxCollider2D>().enabled = false;
                     collision.gameObject.GetComponent<Goomba>().enabled = false;
                     Destroy(collision.gameObject, 1);
-                    rb.AddForce(new Vector2(0, 6), ForceMode2D.Impulse);
+                    rb.AddForce(new Vector2(0, 6.5f), ForceMode2D.Impulse);
                 }
                 else
                 {
@@ -150,6 +147,7 @@ public class HeroController : MonoBehaviour
             music.Stop();
             deathSound.Play();
             _dead = true;
+            Destroy(rb);
             this.enabled = false;
             rb.isKinematic = true;
             yield return new WaitForSeconds(0.2f);
